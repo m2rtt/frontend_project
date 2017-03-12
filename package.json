@@ -1,0 +1,20 @@
+{
+  "name": "frontendproject",
+  "version": "1.0.0",
+  "description": "Interaktiivsed Eeskomponendid",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.17.1",
+    "react": "^15.4.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Märt Sessman",
+  "license": "ISC"
+}
