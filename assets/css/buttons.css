@@ -1,0 +1,9 @@
+button {
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 2rem;
+    font-family: "Century Gothic";
+    background-color: #FFCC00;
+}
+button:hover {
+    background-color: #FFAA00;
+}

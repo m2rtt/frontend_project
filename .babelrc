@@ -1,0 +1,11 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false,
+      "targets": {
+        "browsers": ["> 2%"] // greater than 2% is like >= 3%, the latter does not work for some reason
+      }
+    }]
+  ],
+  "plugins": ["transform-object-rest-spread"]
+}
