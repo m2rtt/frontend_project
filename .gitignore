@@ -1,4 +1,7 @@
 node_modules/
 dist/
-zipHomework.js
-*.zip
+
+# misc
+.DS_Store
+.env
+npm-debug.log

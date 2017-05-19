@@ -3,9 +3,10 @@
     ["env", {
       "modules": false,
       "targets": {
-        "browsers": ["> 2%"] // greater than 2% is like >= 3%, the latter does not work for some reason
+        "browsers": ["last 5 Chrome versions", "last 5 Firefox versions"]
       }
-    }]
+    }],
+    ["react"]
   ],
   "plugins": ["transform-object-rest-spread"]
 }

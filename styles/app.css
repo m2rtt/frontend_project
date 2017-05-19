@@ -1,0 +1,74 @@
+body {
+    font-family: "Century Gothic";
+    background-color: #CCCCFF;
+}
+
+h1 {
+    color: #048;
+}
+h3 {
+    color: #333;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.games {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.game .move {
+  font-size: 1.4em;
+}
+
+input {
+  font-size: 2em;
+  text-align: center;
+}
+
+button {
+    font-size: 1.4rem;
+    font-family: "Century Gothic";
+    background-color: #FFCC00;
+}
+button:hover {
+    background-color: #FFAA00;
+}
+.input-box {
+    text-align: center;
+    font-size: 1.4rem;
+    max-width: 5em;
+}
+
+.number-game .move.correct {
+  color: green;
+}
+
+.number-game .move.incorrect {
+  color: red;
+}
+
+.letter.correct {
+  color: green;
+}
+
+.letter.incorrect {
+  color: red;
+}
+
+.move-list {
+  display: flex;
+  flex-direction: column-reverse;
+}
